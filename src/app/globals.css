@@ -1,9 +1,18 @@
 @import "tailwindcss";
+@font-face {
+  font-family: 'Ivar-Display-Hydro';
+  src: url('/fonts/IvarDisplayHydro-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
 }
+
+
 
 @theme inline {
   --color-background: var(--background);
@@ -16,6 +25,7 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --background-secondary: #1B19E6;
   }
 }
 
@@ -24,3 +34,22 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.cta-btn{
+  padding:.5rem 1rem !important;
+  border-radius: 5rem !important;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+border-color: var(--foreground) !important;
+color:var(--foreground) !important;
+text-transform: capitalize !important;
+}
+
+.cta-blue{
+  background-color: var(--background-secondary) !important;
+border-color: var(--background-secondary) !important;
+}
+
+.font-ivar {
+  font-family: "Ivar-Display-Hydro", sans-serif;
+}
+.bg-black-fade{background:linear-gradient(to bottom, #000000 0%, rgba(0,0,0,0) 100%)}
