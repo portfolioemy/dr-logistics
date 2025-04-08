@@ -1,0 +1,88 @@
+{
+    "hero": {
+        "image": "/images/hero2.webp",
+        "title": "Fast, Safe, and Hassle-Free Dealership Logistics.",
+        "buttons": [
+            {
+                "label": "Start Now",
+                "variant": "outlined",
+                "className": "cta-btn cta-blue"
+            },
+            {
+                "label": "(866) 782-7519",
+                "variant": "outlined",
+                "className": "cta-btn gap-3",
+                "icon": "/images/phone-icon.svg"
+            }
+        ]
+    },
+    "sections": [
+        {
+            "image": "/images/dealership1.webp",
+            "reversed": false,
+            "title": "Why Dealerships Trust duPont REGISTRY Logistics for Vehicle Transport",
+            "content": "At duPont REGISTRY Logistics, we specialize in seamless, secure, and expert vehicle transport tailored for dealerships that handle luxury, exotic, and collector automobiles.Whether moving inventory between showrooms, delivering a high-end purchase to a client, transporting vehicles to and from auctions, or securing reliable transport for trade-ins, our white-glove service ensures a smooth and stress-free experience."
+        },
+        {
+            "imageSet": [
+                "/images/dealership2.webp",
+                "/images/dealership3.webp",
+                "/images/dealership4.webp"
+            ],
+            "reversed": true,
+            "contentSet": [
+                {
+                    "title": "Unmatched Expertise",
+                    "content": "With decades of experience in the luxury automotive industry, duPont Logistics has a deep understanding of the unique requirements for transporting high-end vehicles."
+                },
+                {
+                    "title": "Comprehensive Services ",
+                    "content": "Our tailored transportation solutions encompass a wide range of services, including enclosed transport for added protection, expedited shipping for time-sensitive needs, and door-to-door delivery for ultimate convenience. These services are backed by our unwavering commitment to exceptional customer service and support."
+                },
+                {
+                    "title": "Trusted Network",
+                    "content": "We collaborate only with vetted carriers who share our commitment to excellence, ensuring your vehicle remains in capable hands throughout its journey."
+                }
+            ]
+        }
+    ],
+    "form": {
+        "title": "Fill Out the Form",
+        "image": "/images/dealership5.webp"
+        
+    },
+    "comparison": {
+        "title": "Unveiling The Hidden Costs and Risks of Self-Managed Auto Transport",
+        "secTitle": "We are on average 23% cheaper than competitors in the space as confirmed by our client-partners.",
+        "content": "Do You Really Save $$$ On Transport",
+        "imageSet": [
+          "/images/cons-image.webp",
+          "/images/pros-image.webp"
+        ],
+        "contentSet": [
+         {
+            "title": "CONS",
+            "content": [
+              "Long wait times and stressful negotiations",
+              "Unplanned driver delays, cancellations, and inaccurate driver updates",
+              "Unreliable claims and risk management",
+              "Unclear insurance standards",
+              "Knowledge of carrier equipment's quality standards",
+              "Knowledge about Carrier reputation, USDOT, and fraud history"
+            ]
+          },
+          {
+            "title": "PROS",
+            "content": [
+              "Quick response times with seamless, stress-free negotiations",
+              "Guaranteed driver reliability with accurate, real-time updates",
+              "Efficient claims processing with a proactive risk management system",
+              "Well-defined coverage for peace of mind",
+              "In-depth knowledge of carrier equipment to ensure top-tier service",
+              "Thorough vetting of carriers, including USDOT verification and fraud history checks"
+            ]
+          }
+        ]
+      }
+      
+}

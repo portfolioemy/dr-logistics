@@ -1,0 +1,145 @@
+{
+    "hero": {
+        "image": "/images/hero.webp",
+        "title": "Elevate Your Auto Transport Experience",
+        "subtitle": "Reliable. Secure. White-Glove Service.",
+        "buttons": [
+            {
+                "label": "For Dealerships",
+                "variant": "outlined",
+                "className": "cta-btn"
+            },
+            {
+                "label": "Get a Quote",
+                "variant": "outlined",
+                "className": "cta-btn cta-blue"
+            },
+            {
+                "label": "(866) 782-7519",
+                "variant": "outlined",
+                "className": "cta-btn gap-3",
+                "icon": "/images/phone-icon.svg"
+            }
+        ]
+    },
+    "sections": [
+        {
+            "image": "/images/Trust-duPont-Registry-Logistics.webp",
+            "reversed": false,
+            "title": "Why Car Owners Trust duPont Registry Logistics for Vehicle Transport",
+            "content": "At duPont REGISTRY Logistics, we understand that your vehicle is more than just transportation, it’s an investment, a passion, and a statement.\n\nWhether you’re relocating, purchasing a luxury car, attending an auto show, or shipping a vehicle to a collector, our premium auto transport service ensures a seamless and stress-free experience."
+        },
+        {
+            "imageSet": [
+                "/images/Rectangle 22942.webp",
+                "/images/Mask group.webp",
+                "/images/Mask group (1).webp"
+            ],
+            "reversed": true,
+            "contentSet": [
+                {
+                    "title": "Luxury Transport Experts",
+                    "content": "With decades in the high-end automotive industry, we specialize in handling exotic, collector, and luxury vehicles with the care they deserve."
+                },
+                {
+                    "title": "Trusted Network",
+                    "content": "We partner only with vetted, top-tier carriers to ensure your vehicle is in the best hands from pickup to delivery."
+                },
+                {
+                    "title": "Comprehensive Services",
+                    "content": "Choose from enclosed transport for added protection, expedited shipping for time-sensitive needs, and door-to-door delivery for the ultimate convenience."
+                }
+            ]
+        }
+    ],
+    "customers": {
+        "title": "What Customers say about duPont REGISTRY Logistics",
+        "image": "/images/costumers.webp",
+        "customers": [
+            {
+                "name": "Sarah L., New York to Miami",
+                "review": "I used DR Logistics to ship my Ferrari 488 spider from NYC to Miami. It arrived in perfect condition and ahead of schedule. The level of care and professionalism was beyond my expectations. Highly Recommend!",
+                "stars": [
+                    "/images/Star.svg",
+                    "/images/Star.svg",
+                    "/images/Star.svg",
+                    "/images/Star.svg",
+                    "/images/Star.svg"
+                ]
+            },
+            {
+                "name": "John D., Philadelphia to Orange County",
+                "review": "I sold my G63 Mansory to a friend in CA. I used duPont Logistics for the cross-country shipping. They handled everything flawlessly.",
+                "stars": [
+                    "/images/Star.svg",
+                    "/images/Star.svg",
+                    "/images/Star.svg",
+                    "/images/Star.svg",
+                    "/images/Star.svg"
+                ]
+            },
+            {
+                "name": "Exotic Car Dealership, CA",
+                "review": "Having a logistics partner that is both reliable and transparent has been a game changer for our dealership. Our customers expect premium service, and duPont Logistics delivers.",
+                "stars": [
+                    "/images/Star.svg",
+                    "/images/Star.svg",
+                    "/images/Star.svg",
+                    "/images/Star.svg",
+                    "/images/Star.svg"
+                ]
+            }
+        ]
+    },
+    "howItWorks": {
+        "title": "How It Works – Seamless Auto Transport for Your Dealership",
+        "steps": [
+            {
+                "number": "1",
+                "title": "Provide details about your vehicle, pickup, and delivery locations. Choose between open or enclosed transport, set your pickup date, and let our experts handle the details. Receive a transparent, competitive quote tailored to your shipping needs.",
+                "content": "Fill out our online form or call us to get a personalized quote based on your vehicle and transport needs.",
+                "image": "/images/handcar.svg"
+            },
+            {
+                "number": "2",
+                "title": "Step 2: Book with Confidence",
+                "content": "Finalize your quote and schedule transport effortlessly. ",
+                "image": "/images/car.svg"
+
+            },
+            {
+                "number": "3",
+                "title": "Step 3: Secure Pickup & White-Glove Delivery",
+                "content": "Our professional carriers ensure timely pickup and safe delivery, whether to your new home, a showroom, or an auction. We handle every detail with expert precision and care.",
+                "image": "/images/servicecar.svg"
+            }
+            
+        ]
+    },
+    "faqs": {
+  "title": "Luxury Auto Transport FAQ",
+  "items": [
+    {
+      "question": "Can I Lock in My Rate?",
+      "answer": "Yes. Your quoted price remains the same unless vehicle details or shipping conditions change."
+    },
+    {
+      "question": "Can I Transport My Car with Personal Items Inside?",
+      "answer": "You can, but there may be limitations based on carrier policies and weight restrictions."
+    },
+    {
+      "question": "How Soon Should I Schedule a Pickup?",
+      "answer": "Ideally 1-2 weeks in advance, but we offer expedited options for urgent needs."
+    },
+    {
+      "question": "Is My Vehicle Insured During Transport?",
+      "answer": "Absolutely. All transports include insurance coverage while in transit."
+    },
+    {
+      "question": "What Factors Affect the Cost of Transport?",
+      "answer": "Distance, vehicle type, transport type (open/enclosed), and timing can influence the final quote."
+    }
+  ]
+}
+
+}
