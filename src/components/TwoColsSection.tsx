@@ -1,7 +1,15 @@
 import { Box } from "@mui/material";
 import { useState } from "react";
 
-const TwoColsSection = ({ img, imageSet, contentSet, reversed, children }) => {
+interface TwoColsSectionProps {
+  img?: string;
+  imageSet?: string[];
+  contentSet?: { title: string; content: string }[];
+  reversed?: boolean;
+  children?: React.ReactNode;
+}
+
+const TwoColsSection: React.FC<TwoColsSectionProps> = ({ img, imageSet, contentSet, reversed, children }) => {
   const [stepIndex, setStepIndex] = useState(0);
   const isMultiStep = imageSet && contentSet;
 
