@@ -40,7 +40,7 @@ const CustomerSection: React.FC<CustomerSectionProps> = ({ image, title, custome
                         <p className="text-sm sm:text-base lg:text-lg italic text-black">
                             &quot;{customer.review}&quot;
                         </p>
-                        <span className="text-sm font-bold text-black">__{customer.name}</span>
+                        <span className="text-sm font-bold text-black">_{customer.name}</span>
                     </Box>
                 ))}
             </Box>
