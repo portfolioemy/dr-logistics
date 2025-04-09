@@ -91,7 +91,7 @@ const FormSection: React.FC<FormSectionProps> = ({ title, image, onSubmit }) => 
                             />
                         </Box>
 
-                        <button type="submit" className="cta-btn cta-blue w-fit text-white">
+                        <button type="submit" className="cta-btn cta-blue w-fit text-white ">
                             Submit
                         </button>
                     </form>
