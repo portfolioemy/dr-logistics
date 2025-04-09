@@ -38,7 +38,6 @@ const TwoColsSection: React.FC<TwoColsSectionProps> = ({ img, imageSet, contentS
           </Box>
         )}
 
-        {/* Content blocks aligned with stepper */}
         <Box className="flex flex-col gap-16">
           {isMultiStep ? (
             contentSet.map((item, index) => (
@@ -53,7 +52,6 @@ const TwoColsSection: React.FC<TwoColsSectionProps> = ({ img, imageSet, contentS
         </Box>
       </Box>
 
-      {/* Right column: Dynamic image */}
       <Box className="flex-1 justify-center items-center mt-10 md:mt-0">
         <img
           src={isMultiStep ? imageSet[stepIndex] : img}
