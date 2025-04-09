@@ -15,12 +15,12 @@ export default function HeroSection({ image, title, subtitle, buttons }: HeroSec
       <Box className="bg-black-fade absolute flex flex-col items-center w-full h-screen right-0 top-0 left-0 z-10 gap-5 pt-10 pb-5 sm:pt-30 sm:pb-10 justify-center sm:justify-between">
         <Box className="flex flex-col justify-center items-center gap-3 sm:gap-5 w-full sm:w-xlg px-4 text-center">
           {title && (
-            <h1 className="font-ivar text-xl sm:text-2xl md:text-6xl w-full sm:w-lg">
+            <h1 className="font-ivar text-xl sm:text-2xl md:text-6xl w-full sm:w-lg text-white">
               {title}
             </h1>
           )}
           {subtitle && (
-            <p className="text-sm sm:text-base lg:text-lg">
+            <p className="text-sm sm:text-base lg:text-lg text-white">
               {subtitle}
             </p>
           )}

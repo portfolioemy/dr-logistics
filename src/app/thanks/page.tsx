@@ -17,7 +17,7 @@ export default function ThanksPage() {
             <Box className="relative z-20 h-full flex flex-col justify-between items-center text-center py-40 px-4">
 
                 <Box className="flex flex-col gap-5 w-full sm:w-xlg px-4 text-center">
-                    <Link href="/" className="text-white text-sm sm:text-base self-start">
+                    <Link href="/" className="text-white text-sm sm:text-base self-start text-white">
                         ← Back to Home
                     </Link>
                     <Box className="flex flex-col justify-center items-center gap-3 sm:gap-5 w-full sm:w-xlg px-4 text-center">
@@ -28,7 +28,7 @@ export default function ThanksPage() {
                 </Box>
                 <Box className="flex flex-col justify-center items-center gap-3 sm:gap-5 w-full sm:w-xlg px-4 text-center">
                     <h2 className="font-ivar text-1xl sm:text-3xl lg:text-5xl w-full text-white">{hero.subtitle}</h2>
-                    <p className="text-sm sm:text-base lg:text-lg">{hero.subcontent}</p>
+                    <p className="text-sm sm:text-base lg:text-lg text-white">{hero.subcontent}</p>
                 </Box>
 
 
