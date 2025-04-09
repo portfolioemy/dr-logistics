@@ -32,6 +32,7 @@ export default function HeroSection({ image, title, subtitle, buttons }: HeroSec
               const isDealershipButton = button.label.toLowerCase().includes("dealership");
               const buttonContent = (
                 <Button
+                variant={button.variant as "outlined" | "text" | "contained"}
                   className={`${button.className} text-xs sm:text-sm text-white`}
                 >
                   {button.icon && (
