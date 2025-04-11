@@ -5,7 +5,7 @@
     "subtitle": "Reliable. Secure. White-Glove Service.",
     "buttons": [
       {
-        "label": "For Dealership",
+        "label": "For Dealerships",
         "variant": "outlined",
         "className": "cta-btn",
         "href": "/dealership"
@@ -57,11 +57,11 @@
     }
   ],
   "customers": {
-    "title": "What Customers say about duPont REGISTRY Logistics",
+    "title": "What Customers say about",
+    "secTitle": "duPont REGISTRY Logistics",
     "image": "/images/costumers.webp",
     "customers": [
       {
-        "name": "Sarah L., New York to Miami",
         "review": "I used DR Logistics to ship my Ferrari 488 spider from NYC to Miami. It arrived in perfect condition and ahead of schedule. The level of care and professionalism was beyond my expectations. Highly Recommend!",
         "stars": [
           "/images/Star.svg",
@@ -72,7 +72,6 @@
         ]
       },
       {
-        "name": "John D., Philadelphia to Orange County",
         "review": "I sold my G63 Mansory to a friend in CA. I used duPont Logistics for the cross-country shipping. They handled everything flawlessly.",
         "stars": [
           "/images/Star.svg",
@@ -83,7 +82,6 @@
         ]
       },
       {
-        "name": "Exotic Car Dealership, CA",
         "review": "Having a logistics partner that is both reliable and transparent has been a game changer for our dealership. Our customers expect premium service, and duPont Logistics delivers.",
         "stars": [
           "/images/Star.svg",

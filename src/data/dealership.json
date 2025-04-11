@@ -1,13 +1,16 @@
 {
     "hero": {
-        "image": "/images/hero2.webp",
-        "title": "Fast, Safe, and Hassle-Free Dealership Logistics.",
+        "image": "/images/hero2.png",
+        "title": "duPont REGISTRY Logistics.",
+        "subtitle": "Excellence. Delivered.",
+        "secTitle": "Fast, Safe, and Hassle-Free",
+        "content": "Dealership Logistics",
         "buttons": [
             {
                 "label": "Start Now",
                 "variant": "outlined",
                 "className": "cta-btn cta-blue",
-                "href": "/thanks"
+                "href": "#form1"
             },
             {
                 "label": "(866) 782-7519",
@@ -22,7 +25,7 @@
         {
             "image": "/images/dealership1.webp",
             "reversed": false,
-            "title": "Why Car Owners Trust duPont Registry Logistics for Vehicle Transport",
+            "title": "Why Dealerships Trust duPont Registry Logistics for Vehicle Transport",
             "content": "At duPont REGISTRY Logistics, we understand that your vehicle is more than just transportation, it’s an investment, a passion, and a statement.",
             "secContent": "Whether you’re relocating, purchasing a luxury car, attending an auto show, or shipping a vehicle to a collector, our premium auto transport service ensures a seamless and stress-free experience."
         },
@@ -64,7 +67,7 @@
         ],
         "contentSet": [
          {
-            "title": "CONS",
+            "title": "THE DIY WAY",
             "content": [
               "Long wait times and stressful negotiations",
               "Unplanned driver delays, cancellations, and inaccurate driver updates",
@@ -75,7 +78,7 @@
             ]
           },
           {
-            "title": "PROS",
+            "title": "THE DUPONT REGISTRY WAY",
             "content": [
               "Quick response times with seamless, stress-free negotiations",
               "Guaranteed driver reliability with accurate, real-time updates",

@@ -5,19 +5,20 @@ import Image from "next/image";
 interface Customer {
     stars: string[];
     review: string;
-    name: string;
 }
 
 interface CustomerSectionProps {
     image: string;
     title: string;
+    secTitle?: string;
     customers: Customer[];
 }
 
-const CustomerSection: React.FC<CustomerSectionProps> = ({ image, title, customers }) => {
+const CustomerSection: React.FC<CustomerSectionProps> = ({ image, title, secTitle, customers }) => {
     return (
         <Box className="flex flex-col justify-between items-center gap-10  mt-10 w-full p-10 lg:p-15 bg-[#0F0D1D] ">
             <h2 className="font-ivar text-2xl sm:text-4xl lg:text-5xl w-full lg:w-1/2  text-center text-white">{title}</h2>
+            <h2 className="font-ivar text-2xl sm:text-4xl lg:text-5xl w-full lg:w-1/2  text-center text-white">{secTitle}</h2>
             <Box className="flex flex-col lg:flex-row gap-10 w-full items-center">
                 <Box className="flex-1 flex justify-center items-center h-full">
                     <Image
@@ -43,7 +44,6 @@ const CustomerSection: React.FC<CustomerSectionProps> = ({ image, title, custome
                             <p className="text-base text-black">
                                 &quot;{customer.review}&quot;
                             </p>
-                            <span className="text-base text-black">_{customer.name}</span>
                         </Box>
                     ))}
                 </Box>
