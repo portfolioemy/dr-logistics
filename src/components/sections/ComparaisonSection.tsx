@@ -32,7 +32,7 @@ const ComparisonSection: React.FC<ComparisonSectionProps> = ({
                     {[0, 1].map((i) => (
                         <Box
                             key={i}
-                            className="flex flex-col lg:flex-row justify-center items-start gap-10 w-full relative"
+                            className="flex flex-col lg:flex-row justify-center items-center gap-10 w-full relative"
                         >
                             <Box className="flex-1 flex justify-center">
                                 <Image
