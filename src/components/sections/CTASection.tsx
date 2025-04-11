@@ -14,8 +14,8 @@ interface CTASectionProps {
 
 export default function CTASection({ image, title, subtitle,content,  buttons }: CTASectionProps) {
   return (
-    <Box className="relative w-full h-[70vh]">
-    <Image src={image} alt="hero-section" className="object-cover w-full h-[70vh]" width={3000} height={3000} quality={100} />
+    <Box className="relative w-full h-[50rem]">
+    <Image src={image} alt="hero-section" className="object-cover w-full h-[50rem]" width={3000} height={3000} quality={100} />
       <Box className="absolute flex flex-col items-center right-0 top-0 left-0 z-10 gap-5 pt-10 pb-5 sm:pt-30 sm:pb-10 h-full justify-between ">
         <Box className="flex flex-col justify-center items-center sm:gap-5 w-full sm:w-xlg px-4 text-center">
           {title && (
