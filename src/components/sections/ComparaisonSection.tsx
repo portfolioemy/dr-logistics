@@ -45,8 +45,6 @@ const ComparisonSection: React.FC<ComparisonSectionProps> = ({
                                     className="object-cover"
                                 />
                             </Box>
-
-                        
                             <Box className="flex-1 flex flex-col gap-6 justify-center items-start">
                                 <h3 className="font-ivar text-3xl lg:text-5xl text-black font-normal">
                                     {contentSet[i].title}
