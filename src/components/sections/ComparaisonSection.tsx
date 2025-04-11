@@ -3,17 +3,13 @@ import Image from "next/image";
 
 interface ComparisonSectionProps {
     title: string;
-    content: string;
     imageSet: string[];
     contentSet: { title: string; content: string[] }[];
     secTitle: string;
-    activeIndex: number;
-    setActiveIndex: (index: number) => void;
 }
 
 const ComparisonSection: React.FC<ComparisonSectionProps> = ({
     title,
-    content,
     imageSet,
     contentSet,
     secTitle,
@@ -21,10 +17,7 @@ const ComparisonSection: React.FC<ComparisonSectionProps> = ({
     
     return (
         <Box className="w-full py-15 flex flex-col items-center gap-10 lg:gap-20">
-            <Box className="flex flex-col gap-5 lg:gap-10 w-full items-center text-center">
                 <h2 className="font-ivar text-2xl sm:text-4xl lg:text-6xl w-full lg:w-2/3 text-center text-black">{title}</h2>
-                <p className="lg:text-lg text-black">{content}</p>
-            </Box>
 
             <Box className="w-full flex flex-col lg:flex-row justify-center items-stretch relative py-10 px-10">
 
@@ -65,7 +58,7 @@ const ComparisonSection: React.FC<ComparisonSectionProps> = ({
                 </Box>
             </Box>
 
-
+            <Box className="h-[1px] w-full sm:w-3/4 lg:w-1/3 bg-[#333367] rounded-full" />
             <h2 className="font-ivar text-2xl sm:text-4xl lg:text-5xl w-full lg:w-2/3 text-center text-black">
                 {secTitle}
             </h2>
