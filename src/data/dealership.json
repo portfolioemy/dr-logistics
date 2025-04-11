@@ -6,13 +6,15 @@
             {
                 "label": "Start Now",
                 "variant": "outlined",
-                "className": "cta-btn cta-blue"
+                "className": "cta-btn cta-blue",
+                "href": "/thanks"
             },
             {
                 "label": "(866) 782-7519",
                 "variant": "outlined",
                 "className": "cta-btn gap-3",
-                "icon": "/images/phone-icon.svg"
+                "icon": "/images/phone-icon.svg",
+                "href": "tel:18667827519"
             }
         ]
     },
@@ -20,8 +22,9 @@
         {
             "image": "/images/dealership1.webp",
             "reversed": false,
-            "title": "Why Dealerships Trust duPont REGISTRY Logistics for Vehicle Transport",
-            "content": "At duPont REGISTRY Logistics, we specialize in seamless, secure, and expert vehicle transport tailored for dealerships that handle luxury, exotic, and collector automobiles.Whether moving inventory between showrooms, delivering a high-end purchase to a client, transporting vehicles to and from auctions, or securing reliable transport for trade-ins, our white-glove service ensures a smooth and stress-free experience."
+            "title": "Why Car Owners Trust duPont Registry Logistics for Vehicle Transport",
+            "content": "At duPont REGISTRY Logistics, we understand that your vehicle is more than just transportation, it’s an investment, a passion, and a statement.",
+            "secContent": "Whether you’re relocating, purchasing a luxury car, attending an auto show, or shipping a vehicle to a collector, our premium auto transport service ensures a seamless and stress-free experience."
         },
         {
             "imageSet": [
