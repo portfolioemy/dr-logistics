@@ -61,7 +61,7 @@ export default function Home() {
       <CustomerSection
         image={customersData.image}
         title={customersData.title}
-        secTitle={customersData.secTitle}
+        subTitle={customersData.subTitle}
         customers={customersData.customers}
       />
 
