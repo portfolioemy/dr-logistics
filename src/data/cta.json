@@ -1,0 +1,30 @@
+{
+    "ctaSection": {
+        "image": "/images/cta.webp",
+        "title": "Trust duPont Registry Logistics for Your Auto Transport Needs",
+        "subtitle": "Experience the pinnacle of vehicle transportation with duPont Registry Logistics.",
+        "content": "Whether shipping across the state or across the country, we provide secure, reliable, and luxury-grade transport for your prized vehicle.",
+        "buttons": [
+            {
+                "label": "For Dealerships",
+                "variant": "outlined",
+                "className": "cta-btn",
+                "href": "/dealership"
+
+            },
+            {
+                "label": "Get My Best Rates",
+                "variant": "outlined",
+                "className": "cta-btn cta-blue",
+                "href": "/best-rates"
+            },
+            {
+                "label": "(866) 782-7519",
+                "variant": "outlined",
+                "className": "cta-btn",
+                "icon": "/images/phone-icon.svg",
+                "href": "tel:18667827519"
+            }
+        ]
+    }
+}
