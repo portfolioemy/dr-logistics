@@ -17,7 +17,6 @@ export default function Dealership() {
 
     const router = useRouter();
 
-    const [activeIndex, setActiveIndex] = React.useState(0);
 
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
@@ -69,12 +68,9 @@ export default function Dealership() {
             {/* Comparison Section */}
             <ComparisonSection
                 title={comparison.title}
-                content={comparison.content}
                 imageSet={comparison.imageSet}
                 contentSet={comparison.contentSet}
                 secTitle={comparison.secTitle}
-                activeIndex={activeIndex}
-                setActiveIndex={setActiveIndex}
             />
             {/* CTA Section */}
             <CTASection

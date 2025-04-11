@@ -1,8 +1,10 @@
 {
   "hero": {
     "image": "/images/hero.webp",
-    "title": "Elevate Your Auto Transport Experience",
-    "subtitle": "Reliable. Secure. White-Glove Service.",
+    "title": "duPont Registry Logistics",
+    "subtitle": "Excellence. Delivered.",
+    "secTitle": "Elevate Your Auto Transport Experience",
+    "content": "Reliable. Secure. White-Glove Service.",
     "buttons": [
       {
         "label": "For Dealerships",
@@ -116,7 +118,7 @@
       }
     ]
   },
-"faqs": {
+  "faqs": {
     "title": "Best Practices For Auto Shipping",
     "items": [
       {
