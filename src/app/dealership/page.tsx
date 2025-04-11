@@ -31,6 +31,9 @@ export default function Dealership() {
             <HeroSection
                 image={hero.image}
                 title={hero.title}
+                subtitle={hero.subtitle}
+                content={hero.content}
+                secTitle={hero.secTitle}
                 buttons={hero.buttons}
             />
             {/* Second section */}

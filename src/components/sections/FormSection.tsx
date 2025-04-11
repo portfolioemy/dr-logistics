@@ -11,14 +11,14 @@ interface FormSectionProps {
 
 const FormSection: React.FC<FormSectionProps> = ({ title, image, onSubmit }) => {
     return (
-        <Box className="w-full px-4 sm:px-10 py-20 mt-10 bg-black text-white flex flex-col items-center gap-10">
-            <h2 className="font-ivar text-3xl sm:text-4xl lg:text-5xl w-full text-white text-center ">
+        <Box className="w-full px-4 sm:px-10 py-20 mt-10 bg-black text-white flex flex-col items-center gap-10" id="form1">
+            <h2 className="font-ivar text-2xl sm:text-4xl lg:text-6xl w-full lg:w-2/3 text-white text-center ">
                 {title}
             </h2>
 
             <Box className="flex flex-col lg:flex-row gap-10 w-full items-center">
                 <Box className="w-full flex-1 flex flex-col gap-4 h-full">
-                    <form className="flex flex-col gap-4 w-full h-full" onSubmit={onSubmit}>
+                    <form className="flex flex-col gap-4 w-full h-full" onSubmit={onSubmit} >
                         <Box className="flex flex-col sm:flex-row gap-4 ">
                             <Box className="flex-1 flex flex-col gap-4">
                                 <label htmlFor="first-name" className="text-lg text-white">

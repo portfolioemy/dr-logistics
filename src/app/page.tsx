@@ -59,6 +59,7 @@ export default function Home() {
       <CustomerSection
         image={customersData.image}
         title={customersData.title}
+        secTitle={customersData.secTitle}
         customers={customersData.customers}
       />
 
