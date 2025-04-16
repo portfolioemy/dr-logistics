@@ -26,5 +26,34 @@
                 "href": "tel:18667827519"
             }
         ]
+    },
+    "ctaSectionDealership": {
+        "image": "/images/cta.webp",
+        "title": "Partner with duPont REGISTRY Logistics for Premium Vehicle Transport",
+        "subtitle": "Experience the pinnacle of vehicle transportation with duPont Logistics. ",
+        "content": "Trust duPont REGISTRY Logistics to deliver your vehicle safely and dependably, reflecting the sophistication and excellence synonymous with our brand.",
+        "buttons": [
+            {
+                "label": "Email",
+                "variant": "outlined",
+                "className": "cta-btn",
+                "icon": "/images/email.svg",
+                "href": "mailto:hello@dupont.com"
+
+            },
+            {
+                "label": "Start Now",
+                "variant": "outlined",
+                "className": "cta-btn cta-blue",
+                "href": "#form1"
+            },
+            {
+                "label": "(866) 782-7519",
+                "variant": "outlined",
+                "className": "cta-btn",
+                "icon": "/images/phone-icon.svg",
+                "href": "tel:18667827519"
+            }
+        ]
     }
 }

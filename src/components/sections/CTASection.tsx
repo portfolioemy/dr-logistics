@@ -38,7 +38,7 @@ export default function CTASection({
       <Box className="absolute inset-0 bg-black/50 z-0" />
 
       <Box className="absolute flex flex-col items-center right-0 top-0 left-0 z-10 gap-5 pt-10 pb-5 sm:pt-30 sm:pb-10 h-full justify-between">
-        <Box className="flex flex-col justify-center items-center sm:gap-5 w-full sm:w-xlg px-4 text-center">
+        <Box className="flex flex-col justify-center items-center sm:gap-5 w-full sm:w-xlg px-4 text-center gap-5">
           {title && (
             <h1 className="font-ivar text-2xl sm:text-4xl lg:text-6xl w-full lg:w-2/3 text-center text-white">
               {title}
