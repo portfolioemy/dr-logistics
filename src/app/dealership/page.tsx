@@ -13,7 +13,7 @@ import ctaData from "@/data/cta.json";
 
 export default function Dealership() {
     const { hero, sections, form, comparison } = data;
-    const { ctaSection } = ctaData;
+    const { ctaSectionDealership } = ctaData;
 
     const router = useRouter();
 
@@ -74,11 +74,11 @@ export default function Dealership() {
             />
             {/* CTA Section */}
             <CTASection
-                title={ctaSection.title}
-                subtitle={ctaSection.subtitle}
-                content={ctaSection.content}
-                image={ctaSection.image}
-                buttons={ctaSection.buttons}
+                title={ctaSectionDealership.title}
+                subtitle={ctaSectionDealership.subtitle}
+                content={ctaSectionDealership.content}
+                image={ctaSectionDealership.image}
+                buttons={ctaSectionDealership.buttons}
             />
 
 
