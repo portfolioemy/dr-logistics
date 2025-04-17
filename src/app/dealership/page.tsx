@@ -9,14 +9,13 @@ import FormSection from "@/components/sections/FormSection";
 import ComparisonSection from "@/components/sections/ComparaisonSection";
 import CTASection from "@/components/sections/CTASection";
 import ctaData from "@/data/cta.json";
-
+import type { CompletePageContent, CTASectionType } from "@/types"
 
 export default function Dealership() {
-    const { hero, sections, form, comparison } = data;
-    const { ctaSectionDealership } = ctaData;
+    const { hero, sections, form, comparison } = data as CompletePageContent;
+    const { ctaSectionDealership } = ctaData as CTASectionType;
 
     const router = useRouter();
-
 
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
@@ -80,7 +79,6 @@ export default function Dealership() {
                 image={ctaSectionDealership.image}
                 buttons={ctaSectionDealership.buttons}
             />
-
 
         </Box>
 

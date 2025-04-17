@@ -7,14 +7,14 @@ interface FAQ {
     answer: string;
 }
 
-interface FAQsSectionProps {
+interface FAQSectionProps {
     title: string;
     items: FAQ[];
     activeIndex: number | null;
     toggle: (index: number) => void;
 }
 
-const FAQsSection: React.FC<FAQsSectionProps> = ({ title, items, activeIndex, toggle }) => {
+const FAQSection: React.FC<FAQSectionProps> = ({ title, items, activeIndex, toggle }) => {
     return (
         <Box className="w-full px-6 pb-20 pt-20 max-w-4xl flex flex-col text-black gap-5 align-center justify-center">
             <h2 className="font-ivar text-2xl sm:text-4xl lg:text-5xl w-full   text-center text-black self-center">{title}</h2>
@@ -57,4 +57,4 @@ const FAQsSection: React.FC<FAQsSectionProps> = ({ title, items, activeIndex, to
     );
 };
 
-export default FAQsSection;
+export default FAQSection;

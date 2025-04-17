@@ -7,23 +7,23 @@
         "buttons": [
             {
                 "label": "For Dealerships",
-                "variant": "outlined",
-                "className": "cta-btn",
-                "href": "/dealership"
+                "href": "/dealership",
+                "className":""
 
             },
             {
                 "label": "Get My Best Rates",
-                "variant": "outlined",
-                "className": "cta-btn cta-blue",
-                "href": "/best-rates"
+                "href": "/best-rates",
+                "colorVariant": "secondary",
+                "className":""
+
             },
             {
                 "label": "(866) 782-7519",
-                "variant": "outlined",
-                "className": "cta-btn",
                 "icon": "/images/phone-icon.svg",
-                "href": "tel:18667827519"
+                "href": "tel:18667827519",
+                "className":""
+
             }
         ]
     },
@@ -35,22 +35,18 @@
         "buttons": [
             {
                 "label": "Email",
-                "variant": "outlined",
-                "className": "cta-btn",
                 "icon": "/images/email.svg",
                 "href": "mailto:hello@dupont.com"
 
             },
             {
                 "label": "Start Now",
-                "variant": "outlined",
-                "className": "cta-btn cta-blue",
-                "href": "#form1"
+                "href": "#form1",
+                "colorVariant": "secondary"
+
             },
             {
                 "label": "(866) 782-7519",
-                "variant": "outlined",
-                "className": "cta-btn",
                 "icon": "/images/phone-icon.svg",
                 "href": "tel:18667827519"
             }

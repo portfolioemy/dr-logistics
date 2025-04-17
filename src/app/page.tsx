@@ -1,4 +1,5 @@
 "use client";
+
 import { useState } from "react";
 import TwoColsSection from "@/components/sections/TwoColsSection";
 import HeroSection from "@/components/sections/HeroSection";
@@ -6,14 +7,15 @@ import { Box } from "@mui/material";
 import data from "@/data/about.json";
 import CustomerSection from "@/components/sections/CustomerSection";
 import HowItWorksSection from "@/components/sections/HowItWorksSection";
-import FAQsSection from "@/components/sections/FAQSection";
-import { PrimaryButton } from "@/components/buttons/Buttons";
+import FAQSection from "@/components/sections/FAQSection";
+import { PrimaryButton } from "@/components/buttons/PrimaryButton";
 import ctaData from "@/data/cta.json";
 import CTASection from "@/components/sections/CTASection";
+import type { CompletePageContent, CTASectionType } from "@/types"
 
 export default function Home() {
-  const { hero, sections, customers: customersData, howItWorks, faqs ,} = data;
-  const { ctaSection } = ctaData;
+  const { hero , sections, customers: customersData, howItWorks, faqs } = data as CompletePageContent;
+  const { ctaSection } = ctaData as CTASectionType;
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
   const toggle = (index: number) => {
@@ -28,7 +30,7 @@ export default function Home() {
         subtitle={hero.subtitle}
         content={hero.content}
         secTitle={hero.secTitle}
-        buttons={hero.buttons}
+        buttons={hero.buttons} 
       />
 
       {/* Second Section */}
@@ -75,13 +77,12 @@ export default function Home() {
       />
       <PrimaryButton
         label={"Get My Best Rates"}
-        variant="contained"
-        className="cta-blue"
+        colorVariant="secondary" 
         href="/thanks"
       />
 
       {/* FAQs Section */}
-      <FAQsSection
+      <FAQSection
         title={faqs.title}
         items={faqs.items}
         activeIndex={activeIndex}
@@ -97,8 +98,7 @@ export default function Home() {
         
         
       />
-
-
+      
     </Box>
   );
 }

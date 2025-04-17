@@ -8,22 +8,23 @@
     "buttons": [
       {
         "label": "For Dealerships",
-        "variant": "outlined",
-        "className": "cta-btn",
-        "href": "/dealership"
+        "href": "/dealership",
+        "className":""
+
       },
       {
         "label": "Get a Quote",
-        "variant": "outlined",
-        "className": "cta-btn cta-blue",
-        "href": "/quote"
+        "href": "/quote",
+        "colorVariant": "secondary",
+        "className":""
+
       },
       {
         "label": "(866) 782-7519",
-        "variant": "outlined",
-        "className": "cta-btn",
         "icon": "/images/phone-icon.svg",
-        "href": "tel:18667827519"
+        "href": "tel:18667827519",
+        "className":""
+
       }
     ]
   },
