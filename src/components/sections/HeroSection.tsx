@@ -1,6 +1,6 @@
 import { Box } from "@mui/material";
 import Image from "next/image";
-import { PrimaryButton } from "../buttons/Buttons";
+import { PrimaryButton } from "../buttons/PrimaryButton";
 
 interface HeroSectionProps {
   image: string;
@@ -8,7 +8,13 @@ interface HeroSectionProps {
   subtitle?: string;
   content?: string;
   secTitle?: string;
-  buttons?: { label: string; variant: string; className?: string; icon?: string; href?: string }[];
+  buttons?: {
+    colorVariant?: "default"|"secondary"; 
+    label: string; 
+    className?: string; 
+    icon?: string; 
+    href?: string 
+}[];
 }
 
 export default function HeroSection({ image, title, subtitle, buttons, content, secTitle }: HeroSectionProps) {
@@ -49,9 +55,8 @@ export default function HeroSection({ image, title, subtitle, buttons, content, 
               <PrimaryButton
                 key={index}
                 label={button.label}
-                variant={button.variant as "outlined" | "text" | "contained"}
-                className={button.className}
                 icon={button.icon}
+                colorVariant={button.colorVariant}
                 href={button.href}
               />
             ))}

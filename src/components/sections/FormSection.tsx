@@ -1,7 +1,7 @@
 import React from "react";
 import { Box } from "@mui/material";
 import Image from "next/image";
-import { PrimaryButton } from "../buttons/Buttons";
+import { PrimaryButton } from "../buttons/PrimaryButton";
 
 interface FormSectionProps {
     title: string;
@@ -94,7 +94,7 @@ const FormSection: React.FC<FormSectionProps> = ({ title, image, onSubmit }) => 
                         </Box>
 
                         <Box className="flex justify-start">
-                            <PrimaryButton label="Submit" className="cta-blue" />
+                            <PrimaryButton label="Submit" colorVariant="secondary"/>
                         </Box>
 
                     </form>

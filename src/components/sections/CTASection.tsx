@@ -1,6 +1,6 @@
 import { Box } from "@mui/material";
 import Image from "next/image";
-import { PrimaryButton } from "../buttons/Buttons";
+import { PrimaryButton } from "../buttons/PrimaryButton";
 
 interface CTASectionProps {
   image: string;
@@ -10,8 +10,8 @@ interface CTASectionProps {
   buttons?: {
     href: string | undefined;
     label: string;
-    variant: string;
     className?: string;
+    colorVariant?: "default" | "secondary"; 
     icon?: string;
   }[];
 }
@@ -62,10 +62,10 @@ export default function CTASection({
               <PrimaryButton
                 key={index}
                 label={button.label}
-                variant={button.variant as "outlined" | "text" | "contained"}
                 className={button.className}
                 icon={button.icon}
                 href={button.href}
+                colorVariant={button.colorVariant}
               />
             ))}
           </Box>
