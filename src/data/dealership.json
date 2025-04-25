@@ -24,8 +24,8 @@
       "image": "/images/dealership1.webp",
       "reversed": false,
       "title": "Why Dealerships Trust duPont Registry Logistics for Vehicle Transport",
-      "content": "At duPont REGISTRY Logistics, we understand that your vehicle is more than just transportation, it’s an investment, a passion, and a statement.",
-      "secContent": "Whether you’re relocating, purchasing a luxury car, attending an auto show, or shipping a vehicle to a collector, our premium auto transport service ensures a seamless and stress-free experience."
+      "content": "At duPont REGISTRY Logistics, we understand that your vehicle is more than just transportation, it's an investment, a passion, and a statement.",
+      "secContent": "Whether you're relocating, purchasing a luxury car, attending an auto show, or shipping a vehicle to a collector, our premium auto transport service ensures a seamless and stress-free experience."
     },
     {
       "imageSet": [
@@ -37,10 +37,10 @@
       "contentSet": [
         {
           "title": "Unmatched Expertise",
-          "content": "With decades of experience in the luxury automotive industry, duPont Logistics has a deep understanding of the unique requirements for transporting high-end vehicles."
+          "content": "With decades of experience in the luxury automotive industry, duPont Logistics has a deep understanding of the unique requirements for transporting high-end vehicles."
         },
         {
-          "title": "Comprehensive Services ",
+          "title": "Comprehensive Services ",
           "content": "Our tailored transportation solutions encompass a wide range of services, including enclosed transport for added protection, expedited shipping for time-sensitive needs, and door-to-door delivery for ultimate convenience. These services are backed by our unwavering commitment to exceptional customer service and support."
         },
         {
@@ -55,23 +55,34 @@
     "image": "/images/dealership5.webp"
   },
   "comparison": {
-    "title": "Unveiling The Hidden Costs and Risks of Self-Managed Auto Transport",
+    "title": "Unveiling the Hidden Costs and Risks of DIY Auto Transport",
+    "content":"While it may seem cost-effective for dealerships to manage their own vehicle transport, the reality is often more complicated. DIY auto transport can create hidden administrative burdens, tying up internal resources and exposing them to increased risks and fraud. What initially looks like savings can quickly become operational strain and unforeseen expenses.",
+
     "secTitle": "We are on average 23% cheaper than competitors in the space as confirmed by our client-partners.",
     "imageSet": ["/images/cons-image.webp", "/images/pros-image.webp"],
     "contentSet": [
       {
-        "title": "THE DIY WAY",
+        "title": "Administrative Burdens:",
         "content": [
-          "Long wait times and stressful negotiations",
-          "Unplanned driver delays, cancellations, and inaccurate driver updates",
-          "Unreliable claims and risk management",
-          "Unclear insurance standards",
-          "Knowledge of carrier equipment's quality standards",
-          "Knowledge about Carrier reputation, USDOT, and fraud history"
+          "Posting Orders",
+          "Taking Carrier Calls",
+          "Negotiation of Carrier Pay",
+          "Driver Cancellations",
+          "Driver Delays",
+          "Getting Timely and Accurate Driver Updates",
+          "Managing Claims and the Financial Risks"
+        ],
+        "risksTitle":"Risks of Not Having a Deep Industry Knowledge Base",
+        "risks": [
+          "Confirming Carrier has Proper and Current Insurance Standards",
+          "Confirming Carrier has the Proper Equipment",
+          "Confirming Carrier Reputation, Performance Scores, and USDOT Compliance",
+          "Being able to Identify Fraudulent Carriers, Scammers and Double Brokers"
         ]
       },
       {
-        "title": "THE DUPONT REGISTRY WAY",
+        "title": "Dealerships - Skip the Stress. Trust duPont Registry Logistics to Deliver.",
+        "subContent":"We eliminate the internal burden and risk by offering a fully managed transport experience tailored to dealership needs. Our team delivers quick response times and handles all communications, ensuring a seamless, stress-free process from start to finish. With duPont Registry Logistics, you get guaranteed reliability backed by industry experts, so you're never left in the dark.",
         "content": [
           "Quick response times with seamless, stress-free negotiations",
           "Guaranteed driver reliability with accurate, real-time updates",
@@ -82,5 +93,8 @@
         ]
       }
     ]
-  }
+  },
+  "customers": { "title": "", "subTitle": "", "image": "", "customers": [] },
+  "howItWorks": { "title": "", "steps": [] },
+  "faqs": { "title": "", "items": [] }
 }

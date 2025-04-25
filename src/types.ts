@@ -86,6 +86,7 @@ export interface ComparisonItem {
 
 export interface ComparisonSectionType {
   title: string;
+  content:string;
   secTitle: string;
   imageSet: string[];
   contentSet: ComparisonItem[];
