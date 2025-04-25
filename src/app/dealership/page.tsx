@@ -67,6 +67,7 @@ export default function Dealership() {
             {/* Comparison Section */}
             <ComparisonSection
                 title={comparison.title}
+                content={comparison.content}
                 imageSet={comparison.imageSet}
                 contentSet={comparison.contentSet}
                 secTitle={comparison.secTitle}

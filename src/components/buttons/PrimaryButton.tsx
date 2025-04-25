@@ -63,7 +63,7 @@ const buttonStyles = (colorVariant: "default" | "secondary") => ({
   transform: "scale(1)",
   cursor: "pointer",
   "&:hover": {
-    backgroundColor: colorVariant === "secondary" ? "#1513cc" : "rgba(0, 0, 0, 0.7)",
+    backgroundColor: colorVariant === "secondary" ? "rgba(0, 0, 0, 0.7)" : "#1B19E6",
     borderColor: "#fff",
     transform: "scale(1.05)",
     boxShadow: "0 6px 20px rgba(0,0,0,0.2)",
