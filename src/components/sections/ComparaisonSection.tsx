@@ -28,9 +28,9 @@ const ComparisonSection: React.FC<ComparisonSectionProps> = ({
                 <h2 className="font-ivar text-2xl sm:text-4xl lg:text-6xl w-full lg:w-2/3 text-center text-black px-10">{title}</h2>
                 <p className="font-inter  text-center text-black w-full lg:w-2/3 px-10">{content}</p>
 
-            <Box className="w-full flex flex-col lg:flex-row justify-center items-stretch relative py-10 px-10">
+            <Box className="w-full flex flex-col lg:flex-row justify-center items-stretch relative py-10 px-15">
 
-                <Box className="flex flex-col gap-15 w-full">
+                <Box className="flex flex-col gap-15 w-full items-stretch">
                     {[0, 1].map((i) => (
                         <Box
                             key={i}
@@ -50,35 +50,35 @@ const ComparisonSection: React.FC<ComparisonSectionProps> = ({
                                 />
                             </Box>
                             <Box className="flex-1 flex flex-col gap-6 justify-center items-start">
-                                <h3 className="font-ivar text-3xl lg:text-5xl text-black font-normal">
+                                <h3 className="font-ivar text-3xl text-[#131222] font-normal">
                                     {contentSet[i].title}
                                 </h3>
                                 {contentSet[i].subContent && (
-                                    <p className="text-base sm:text-lg text-black">{contentSet[i].subContent}</p>
+                                    <p className="text-base sm:text-lg text-black w-full lg:w-5/6">{contentSet[i].subContent}</p>
                                 )}
-                                <ul className="pl-6 text-base sm:text-lg text-black flex flex-col gap-5 lg:gap-5">
+                                <ul className="text-black flex flex-col gap-5 lg:gap-5">
                                     {contentSet[i].content.map((item, idx) => (
                                         <li
                                             key={idx}
-                                            className="relative pl-5 before:content-[''] before:absolute before:left-0 before:top-2 before:w-2.5 before:h-2.5 before:rounded-full before:border before:border-[#1B19E6] font-semibold text-xl"
+                                            className="relative pl-5 before:content-[''] before:absolute before:left-0 before:top-2 before:w-1.5 before:h-1.5 before:rounded-full before:border before:border-[#1B19E6] font-inter"
                                         >
                                             {item}
                                         </li>
                                     ))}
                                 </ul>
                                 {contentSet[i].risksTitle && (
-                                    <h3 className="font-ivar text-3xl lg:text-5xl text-black font-normal">
+                                    <h3 className="font-ivar text-3xl text-[#131222] font-normal">
                                     {contentSet[i].risksTitle}
                                 </h3>
 
                                 )}
                                 {contentSet[i].risks && (
                                     <Box className="">
-                                        <ul className="pl-6 text-base sm:text-lg text-black flex flex-col gap-5 lg:gap-5">
+                                        <ul className=" text-black flex flex-col gap-5 lg:gap-5">
                                             {contentSet[i].risks.map((risk, idx) => (
                                                 <li
                                                     key={idx}
-                                                    className="relative pl-5 before:content-[''] before:absolute before:left-0 before:top-2 before:w-2.5 before:h-2.5 before:rounded-full before:border before:border-[#1B19E6] font-semibold text-xl"
+                                                    className="relative pl-5 before:content-[''] before:absolute before:left-0 before:top-2 before:w-1.5 before:h-1.5 before:rounded-full before:border before:border-[#1B19E6]  font-inter"
                                                 >
                                                     {risk}
                                                 </li>
@@ -93,7 +93,7 @@ const ComparisonSection: React.FC<ComparisonSectionProps> = ({
             </Box>
 
             <Box className="h-[1px] w-full sm:w-3/4 lg:w-1/3 bg-[#333367] rounded-full" />
-            <h2 className="font-ivar text-2xl sm:text-4xl lg:text-5xl w-full lg:w-2/3 text-center text-black">
+            <h2 className="font-ivar text-2xl sm:text-4xl lg:text-6xl w-full lg:w-2/3 text-center text-black">
                 {secTitle}
             </h2>
         </Box>

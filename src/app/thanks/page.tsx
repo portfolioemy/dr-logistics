@@ -14,8 +14,7 @@ export default function ThanksPage() {
                 src={hero.image}
                 alt="Thank You"
                 className="absolute inset-0 w-full h-full object-cover z-0"
-                width={3000}
-                height={3000}
+                fill
                 quality={100}
             />
             <Box className="absolute inset-0 bg-black opacity-50 z-10" />

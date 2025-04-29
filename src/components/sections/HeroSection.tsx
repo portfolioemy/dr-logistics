@@ -20,7 +20,7 @@ interface HeroSectionProps {
 export default function HeroSection({ image, title, subtitle, buttons, content, secTitle }: HeroSectionProps) {
   return (
     <Box className="relative w-full h-screen mb-10">
-      <Image src={image} alt="hero-section" className="w-full h-screen object-cover object-center" width={3000} height={2000} quality={100} loading="eager" unoptimized priority />
+      <Image src={image} alt="hero-section" className="w-full h-screen object-cover object-center" fill quality={100} loading="lazy"/>
       <Box className="absolute flex flex-col items-center w-full h-screen right-0 top-0 left-0 z-10 gap-5 sm:py-10 py-30 lg:py-40 justify-center sm:justify-between">
         <Box className="flex flex-col justify-center items-center gap-3 sm:gap-5 w-full sm:w-xlg px-4 text-center">
           {title && (

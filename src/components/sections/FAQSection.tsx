@@ -42,7 +42,7 @@ const FAQSection: React.FC<FAQSectionProps> = ({ title, items, activeIndex, togg
                         <Box className="mt-4 flex flex-col gap-3">
                         {faq.answer.split("\n").map((line, idx) => (
                           <Box key={idx} className="flex items-start gap-2">
-                            <span className="w-2.5 h-2.5 mt-2 rounded-full border border-[#1B19E6] flex-shrink-0" />
+                            <span className="w-1.5 h-1.5 mt-3 rounded-full border border-[#1B19E6] flex-shrink-0" />
                             <p className="text-lg text-black">{line}</p>
                           </Box>
                         ))}

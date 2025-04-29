@@ -11,7 +11,7 @@ interface CTASectionProps {
     href: string | undefined;
     label: string;
     className?: string;
-    colorVariant?: "default" | "secondary"; 
+    colorVariant?: "default" | "secondary";
     icon?: string;
   }[];
 }
@@ -29,8 +29,8 @@ export default function CTASection({
         src={image}
         alt="hero-section"
         className="object-cover object-center w-full h-full"
-        width={3000}
-        height={3000}
+        quality={100}
+        fill
         loading="lazy"
         unoptimized
       />
