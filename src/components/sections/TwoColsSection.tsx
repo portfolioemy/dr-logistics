@@ -90,8 +90,8 @@ const TwoColsSection: React.FC<TwoColsSectionProps> = ({
           className={`object-cover rounded-lg sm:rounded-xl transition-opacity duration-500 ${
             fade ? "opacity-100" : "opacity-0"
           }`}
-          width={900}
-          height={900}
+          width={1000}
+          height={1000}
           loading="eager"
         />
       </Box>

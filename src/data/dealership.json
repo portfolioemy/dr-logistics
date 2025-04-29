@@ -72,7 +72,7 @@
           "Getting Timely and Accurate Driver Updates",
           "Managing Claims and the Financial Risks"
         ],
-        "risksTitle":"Risks of Not Having a Deep Industry Knowledge Base",
+        "risksTitle":"Risks of Not Having a Deep Industry Knowledge Base:",
         "risks": [
           "Confirming Carrier has Proper and Current Insurance Standards",
           "Confirming Carrier has the Proper Equipment",
@@ -81,8 +81,8 @@
         ]
       },
       {
-        "title": "Dealerships - Skip the Stress. Trust duPont Registry Logistics to Deliver.",
-        "subContent":"We eliminate the internal burden and risk by offering a fully managed transport experience tailored to dealership needs. Our team delivers quick response times and handles all communications, ensuring a seamless, stress-free process from start to finish. With duPont Registry Logistics, you get guaranteed reliability backed by industry experts, so you're never left in the dark.",
+        "title": "Trust duPont Registry Logistics to Deliver.",
+        "subContent":"We provide a fully managed, stress-free transport solution for dealerships, ensuring fast responses, expert communication, and guaranteed reliability.",
         "content": [
           "Quick response times with seamless, stress-free negotiations",
           "Guaranteed driver reliability with accurate, real-time updates",
